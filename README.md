@@ -1,7 +1,5 @@
 <<<<<<< HEAD
-# dev
-=======
-# Nuxt Minimal Starter
+# dev2025
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -76,4 +74,3 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
->>>>>>> 53088a1 (init project)

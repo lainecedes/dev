@@ -21,7 +21,12 @@ export default defineNuxtConfig({
         locales: ['en', 'nl'],
         defaultLocale: 'nl',
         strategy: 'prefix',
-        vueI18n: './i18n/i18n.config.ts',
+        vueI18n: 'i18n.config.ts',
+        detectBrowserLanguage: {
+            useCookie: false,
+            redirectOn: 'root', // only redirect on root path
+            alwaysRedirect: false,
+        },
         experimental: {
             bundle: {
                 optimizeTranslationDirective: false,

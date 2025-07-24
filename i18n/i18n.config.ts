@@ -1,7 +1,7 @@
-import en from './en.json'
-import nl from './nl.json'
+import en from './locales/en.json'
+import nl from './locales/nl.json'
 
-export default {
+export default defineI18nConfig(() => ({
     legacy: false,
     locale: 'nl',
     fallbackLocale: 'nl',
@@ -9,4 +9,4 @@ export default {
         en,
         nl,
     },
-}
+}));
